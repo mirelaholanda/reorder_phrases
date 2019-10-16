@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <title>javascript project</title>
+</head>
+<body>
+    <script type="text/javascript" src="js/code.js"> </script>
+    
+    <section>      
+        <div class="container" >
+            <div id="box">
+                <section>
+                    <div class="bg-dark p-2 configTitre" >
+                        <p>Entrez une phrase que doit avoir au moins 3 mots et au plus 10 mots</p>
+                    </div>
+        
+                    <div class="bg-light p-2 configTable">                      
+                        <label>Entrez une phrase:</label>
+                        <input id="champPhrase" type="text" name="champPhrase" placeholder="Écrivez votre phrase ici"></br><p class="important">
+                        <button type="button" id="btnTransformer" onclick="transformer();">Transformer</button></p>
+                    </div>
+                </section>
+                   
+                <section>
+                    <div class="bg-dark p-2 configTitre">
+                        <p>Résultat</p>
+                    </div>
+        
+                    <div class="bg-light p-2 configTable">                       
+                        <label>Votre phrase transformé est:</label>
+                        <input type="text" id="phraseTransforme" name="phraseTransforme" placeholder="Votre phrase transformé va être ici" readonly>
+                    </div>
+                </section>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
